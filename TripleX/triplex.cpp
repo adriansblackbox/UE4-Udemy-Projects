@@ -7,12 +7,12 @@ void PlayGameAtDifficulty(int difficulty)
     std::cout << "Your SuperHacker 2000 tells you the following information...\n";
 
     srand(time(NULL));
-    const int a = rand() % difficulty + difficulty;
-    const int b = rand() % difficulty + difficulty;
-    const int c = rand() % difficulty + difficulty;
+    const int KeyA = rand() % difficulty + difficulty;
+    const int KeyB = rand() % difficulty + difficulty;
+    const int KeyC = rand() % difficulty + difficulty;
 
-    const int sum = a + b + c;
-    const int product = a * b * c;
+    const int sum = KeyA + KeyB + KeyC;
+    const int product = KeyA * KeyB * KeyC;
 
     std::cout << std::endl;
     std::cout << "+ There are three numbers in the code\n";
